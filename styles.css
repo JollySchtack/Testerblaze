@@ -78,17 +78,17 @@
     }
 
     .slider-track img {
-      width: 400px; /* Match container width */
-      height: 250px; /* Match container height */
+      width: 450px; /* Match container width */
+      height: 170px; /* Match container height */
       object-fit: cover;
       margin-left: 10%;
       margin-right: 10%;
     }
 
 @keyframes slide {
-      0%, 20% { transform: translateX(30px); }
-      33%, 53% { transform: translateX(-303px); }
-      66%, 86% { transform: translateX(-622px); }
+      0%, 20% { transform: translateX(10px); }
+      33%, 53% { transform: translateX(-370px); }
+      66%, 86% { transform: translateX(-650px); }
       100% { transform: translateX(-955px); }
     }
 
