@@ -540,37 +540,46 @@ body {
 }
 
 .crypto-details img {
-  width: 30px;
+  width: 45px;
   margin-right: 10px;
   border-radius: 50px;
 }
 
 .crypto-info {
-  display: flex;
+  display: flex; 
   flex-direction: column;
   align-items: flex-start;
-}
+} 
 
 .crypto-name {
   font-size: 18px;
   font-weight: bold;
-}
+  margin-bottom: 15px; 
+}  
 
 .crypto-price {
-  font-size: 14px;
-  color: #848E9C;
+  font-size: 14px;  
+  color: #848E9C; 
 }
-
+ 
 .crypto-balance {
-  text-align: right;
+  text-align: right; 
   font-size: 16px;
   font-weight: bold;
-}
-
-.usd-equivalent {
-  color: #848E9C;
-  margin-top: 2px;
-}
+  display: flex; 
+  flex-direction: column;   
+  align-items: right; 
+  justify-content: right; 
+}  
+ 
+.crypto-figure{ 
+  margin-bottom: 20px;
+} 
+  
+.usd-equivalent {  
+  color: #848E9C;  
+  margin-top: 0px;  
+}  
 
 #crypto-list{
   padding-left: 5px;
@@ -648,7 +657,7 @@ body {
   font-weight: bold;
   margin-bottom: 1px;
   font-size: 16px;
-}
+} 
 
 
 .crypto-info-deposit {
@@ -756,6 +765,7 @@ body {
   font-size: 18px;
   font-weight: bold;
   text-align: left;
+  margin-top: 200px;
 }
 
 .p-font {
@@ -795,6 +805,7 @@ body {
   display: flex;
   flex-direction: row;
   text-align: center;
+  padding-right: 7%;
 }
 
 .modal-button {
@@ -853,11 +864,12 @@ body {
   border: none;
   position: absolute;
   top: 126px;
-  right: 22px;
+  right: 22px; 
 }
 
 .crypto-logo{
-  border-radius: 50px;
+  border-radius: 50px; 
+  width: 65px;
 }
 
 
@@ -920,7 +932,7 @@ header {
 
 .menu-button, .more-options {
     order: 1;
-}
+} 
 
 nav, .crypto-selector, .filters {
     display: flex;
@@ -2329,13 +2341,14 @@ footer {
   border-radius: 10px;
   border: none;
   color: white;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 .binance-icon{
   width: 40px;
   position: absolute;
-  left: 20px;
+  left: 15px;
+  top: 15px;
 }
 
 .binance-icon-a{
@@ -2364,6 +2377,12 @@ footer {
   justify-content: left;
   background-color: green;
   white-space: nowrap;
+}
+
+.account-fixed-top{
+  position: fixed;
+  background-color: #181A20;
+  width: 100%;
 }
 
 .binance-icon-two{
