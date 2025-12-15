@@ -202,6 +202,7 @@ textarea.invalid {
 #referral-code{
     width: 100%; /* Adjust width */
     padding: 15px;
+    color: #fff;
     margin-bottom: 10px; /* Reduce margin bottom */
     border: 1px solid #555; /* Darker border */
     border-radius: 5px;
@@ -3313,7 +3314,7 @@ footer {
     margin-right: 0.5rem;
     padding-top: 6.5px;   
     padding-left: 6.5px;
-    border-radius: 10px;    
+    border-radius: 50px;    
 }   
     
 .express-to-icon { 
@@ -3321,12 +3322,11 @@ footer {
     height: 22px; 
     margin-right: 0.5rem;
     padding-top: 6.5px;
-    padding-left: 6.5px;
-  border-radius: 10px; 
-}
-
-#express-from-list{
-  margin-bottom: 150px;
+    padding-left: 6.5px; 
+} 
+     
+#express-from-list{  
+  margin-bottom: 150px;   
 }
  
 #express-to-list{
@@ -3407,6 +3407,7 @@ footer {
   margin-left: 8%;
   margin-top: 10px;
   margin-bottom: 10px;
+  border-radius: 50px;
 }
 
 .not-icon-b{
