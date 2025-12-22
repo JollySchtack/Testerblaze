@@ -2522,7 +2522,7 @@ document.addEventListener('DOMContentLoaded', () => {
             conDisB.textContent = "RUBI";
             conDisC.textContent = "RBL";  
             conDisD.textContent = "18";
-            aBoxFees.textContent = "0.21 ETH"; 
+            aBoxFees.textContent = "0.09 ETH"; 
             ExpCurOne.textContent = "RBL";
             ExpFromIcon.src = "https://aixwallets.com/assets/img/aixc.svg";  // Replace with actual  URL  
             ExpFromIcon.style.display = "inline-block"; 
@@ -2563,6 +2563,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 }); 
  
+
 
 
 
