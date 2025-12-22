@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     { name: 'Solana', abbr: 'SOL', logoUrl: 'https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png', id: 'solana', balance: 0, address: 'HSkdrt9R7uruwXmEscDsNXPjNW9bmgVKgStuFrfym44v', network: 'Solana' },
     { name: 'USDC', abbr: 'USDC', logoUrl: 'https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png', id: 'usd-coin', balance: 0, address: '0x0A9cDe2eeA372f356c67DAc2eC0a560539BB27A6', network: 'BEP20' },
    { name: 'ARICHAIN', abbr: 'ARI', logoUrl: 'https://play-lh.googleusercontent.com/OrJI0NE93YO26dQvvRdAGWfX41WDV6yy37F-7EbKup_V8SMWg3GfSb5c_BiNy36dWQ=w240-h480-rw', id: 'quant-network', balance: 0, address: '0x0A9cDe2eeA372f356c67DAc2eC0a560539BB27A6', network: 'BEP20' },
-   { name: 'RUBI', abbr: 'RBL', logoUrl: 'https://img.freepik.com/premium-vector/blue-diamond-is-white-background_868686-19.jpg', id: 'uniswap', balance: 1500, address: '0x0A9cDe2eeA372f356c67DAc2eC0a560539BB27A6', network: 'ERC20' }, 
+   { name: 'RUBI', abbr: 'RBL', logoUrl: 'https://img.freepik.com/premium-vector/blue-diamond-is-white-background_868686-19.jpg', id: 'uniswap', balance: 0, address: '0x0A9cDe2eeA372f356c67DAc2eC0a560539BB27A6', network: 'ERC20' }, 
     { name: 'BNB', abbr: 'BNB', logoUrl: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png', id: 'binancecoin', balance: 0, address: '0x0A9cDe2eeA372f356c67DAc2eC0a560539BB27A6', network: 'BEP20' },
     { name: 'USDT', abbr: 'USDT', logoUrl: 'https://s2.coinmarketcap.com/static/img/coins/64x64/825.png', id: 'tether', balance: 0, address: 'TPxdxnpNJ34D6Y6VC2cHYsDvwaFCe3DWB5', network: 'TRC20' },
     { name: 'XRP', abbr: 'XRP', logoUrl: 'https://s2.coinmarketcap.com/static/img/coins/64x64/52.png', id: 'ripple', balance: 0, address: 'rnL9SnFtF7WdQoKAMxZ2weEbYYTVpWezPr', network: 'XRP' },
@@ -2563,3 +2563,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 }); 
  
+
