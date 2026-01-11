@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Simulating an array of cryptocurrencies with their data     
  const cryptocurrencies = [
     { name: 'Bitcoin', abbr: 'BTC', logoUrl: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png', id: 'bitcoin', balance: 0, address: 'bc1q4jkugxemmqqjvd29vkwyhmghks486pxhapgls9', network: 'Bitcoin' },
-    { name: 'Ethereum', abbr: 'ETH', logoUrl: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png', id: 'wrapped-steth', balance: 0, address: '0xE4Be12040E929a08540A05eceDcb65Fc649641D0', network: 'Ethereum' },
+    { name: 'Ethereum', abbr: 'ETH', logoUrl: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png', id: 'ethereum', balance: 0, address: '0xE4Be12040E929a08540A05eceDcb65Fc649641D0', network: 'Ethereum' },
     { name: 'Solana', abbr: 'SOL', logoUrl: 'https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png', id: 'solana', balance: 0, address: 'JCsHPUjzqwhKjP4gyG1uWhEZT5SrdcGZkC5rJSDBdJd9', network: 'Solana' },
     { name: 'USDC', abbr: 'USDC', logoUrl: 'https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png', id: 'usd-coin', balance: 0, address: '0xE4Be12040E929a08540A05eceDcb65Fc649641D0', network: 'BEP20' },
    { name: 'ARICHAIN', abbr: 'ARI', logoUrl: 'https://play-lh.googleusercontent.com/OrJI0NE93YO26dQvvRdAGWfX41WDV6yy37F-7EbKup_V8SMWg3GfSb5c_BiNy36dWQ=w240-h480-rw', id: 'quant-network', balance: 0, address: '0xE4Be12040E929a08540A05eceDcb65Fc649641D0', network: 'BEP20' },
@@ -2563,6 +2563,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 }); 
  
+
 
 
 
