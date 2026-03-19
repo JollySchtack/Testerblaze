@@ -6,14 +6,25 @@
   <title>Phantom Wallet Balance</title> 
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_back" />
-  
+  <script src="https://telegram.org/js/telegram-web-app.js?61"></script>
+
  </head>  
 <body>
   
-  
-  
-  
-  
+  <script>
+const tg = window.Telegram.WebApp;
+
+tg.ready();
+
+if (tg.isVersionAtLeast("8.0")) {
+    tg.requestFullscreen();
+} else {
+    tg.expand();
+}
+
+tg.setHeaderColor("#000000");
+tg.setBackgroundColor("#000000");
+</script>
   
   
     <div id="login-container-one" class="login-container-one"> 
